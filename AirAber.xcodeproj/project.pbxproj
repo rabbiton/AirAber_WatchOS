@@ -18,6 +18,7 @@
 		0E1C1DBD240FDEBB000ECDCE /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1C1DBC240FDEBB000ECDCE /* FlightInterfaceController.swift */; };
 		0EAE7DFB24113C7800C2AF2D /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE7DFA24113C7800C2AF2D /* ScheduleInterfaceController.swift */; };
 		0EAE7DFD241149D700C2AF2D /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EAE7DFC241149D700C2AF2D /* FlightRowController.swift */; };
+		0EDF67662418E9270061ABF8 /* CheckInInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDF67652418E9270061ABF8 /* CheckInInterfaceController.swift */; };
 		1800B8711FC1E26C00855EEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1800B8701FC1E26C00855EEC /* LaunchScreen.xib */; };
 		7B8FA23D1B72275A00B1E765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23C1B72275A00B1E765 /* AppDelegate.swift */; };
 		7B8FA23F1B72275A00B1E765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA23E1B72275A00B1E765 /* ViewController.swift */; };
@@ -82,6 +83,7 @@
 		0E1C1DBC240FDEBB000ECDCE /* FlightInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController.swift; sourceTree = "<group>"; };
 		0EAE7DFA24113C7800C2AF2D /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
 		0EAE7DFC241149D700C2AF2D /* FlightRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
+		0EDF67652418E9270061ABF8 /* CheckInInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInInterfaceController.swift; sourceTree = "<group>"; };
 		1800B8701FC1E26C00855EEC /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		40113A891F5A4F760089A5C1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7B8FA2391B72275A00B1E765 /* AirAber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirAber.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +133,7 @@
 				0EAE7DFA24113C7800C2AF2D /* ScheduleInterfaceController.swift */,
 				0E1C1DA8240FBC14000ECDCE /* ExtensionDelegate.swift */,
 				0EAE7DFC241149D700C2AF2D /* FlightRowController.swift */,
+				0EDF67652418E9270061ABF8 /* CheckInInterfaceController.swift */,
 				0E1C1DAA240FBC15000ECDCE /* Assets.xcassets */,
 				0E1C1DAC240FBC15000ECDCE /* Info.plist */,
 			);
@@ -343,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EDF67662418E9270061ABF8 /* CheckInInterfaceController.swift in Sources */,
 				0E1C1DA9240FBC14000ECDCE /* ExtensionDelegate.swift in Sources */,
 				0E1C1DBD240FDEBB000ECDCE /* FlightInterfaceController.swift in Sources */,
 				0EAE7DFB24113C7800C2AF2D /* ScheduleInterfaceController.swift in Sources */,

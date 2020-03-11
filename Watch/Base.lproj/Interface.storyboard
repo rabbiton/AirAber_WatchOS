@@ -6,6 +6,51 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
     </dependencies>
     <scenes>
+        <!--CheckIn-->
+        <scene sceneID="2h7-P8-hzV">
+            <objects>
+                <controller identifier="CheckIn" id="AOt-dp-6JV" customClass="CheckInInterfaceController" customModule="Watch_Extension">
+                    <items>
+                        <group width="1" height="1" alignment="center" contentMode="center" layout="vertical" id="jWd-ey-fNi">
+                            <items>
+                                <group height="30" alignment="center" spacing="4" id="2r5-u4-nrG">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="MEL" id="0co-zt-nxh">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                        <imageView width="24" height="20" alignment="left" verticalAlignment="center" image="airplane" catalog="system" id="tzR-6m-S8v">
+                                            <color key="tintColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </imageView>
+                                        <label alignment="left" verticalAlignment="center" text="SFO" id="BUx-t7-UZM">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <button alignment="center" verticalAlignment="center" id="xxE-Pm-D7Q">
+                                    <group key="contentGroup" width="78" height="78" alignment="left" layout="vertical" radius="39" spacing="5" id="sVx-JP-wHz">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Check In" id="2AH-VU-07G">
+                                                <fontDescription key="font" type="system" weight="semibold" pointSize="16"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                    <connections>
+                                        <action selector="checkInButtonTapped" destination="AOt-dp-6JV" id="fNe-VE-x9h"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="backgroundGroup" destination="jWd-ey-fNi" id="EUh-Nw-OOm"/>
+                        <outlet property="destinationLabel" destination="BUx-t7-UZM" id="oq3-v6-MoX"/>
+                        <outlet property="originLabel" destination="0co-zt-nxh" id="HvJ-1Z-5z2"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="246.71794871794873" y="6.5384615384615392"/>
+        </scene>
         <!--Air Abel-->
         <scene sceneID="hxB-H5-W2s">
             <objects>
@@ -67,7 +112,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-194" y="7"/>
+            <point key="canvasLocation" x="-179" y="7"/>
         </scene>
         <!--Flight-->
         <scene sceneID="9ci-fd-cV6">
